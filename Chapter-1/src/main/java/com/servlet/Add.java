@@ -14,5 +14,8 @@ public class Add extends HttpServlet {
 
         //Since this statement is written in java it will print the data on console
         System.out.println("ADDITION IS :: "+(num1+num2));
+
+        //To print the same data on the servlet we have to print using different method
+        //look for Chapter - 2
     }
 }
