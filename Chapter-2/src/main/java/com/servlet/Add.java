@@ -20,5 +20,7 @@ public class Add extends HttpServlet {
 
         //Also, for checking purpose we are printing same data in console
         System.out.println("SUM IS :: "+(num1+num2));
+
+        //sending request from one servlet to another in Chapter-3
     }
 }
