@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20265cf8-c20c-4ebf-9c1e-6a29f92f64ea" name="Changes" comment="full code updated">
+    <list default="true" id="20265cf8-c20c-4ebf-9c1e-6a29f92f64ea" name="Changes" comment="code updated">
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/src/main/java/com/servlet/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/src/main/java/com/servlet/Welcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter-3/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683396797463</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="code updated">
+      <created>1683398327783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683398327783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PrintWriter Concept added" />
     <MESSAGE value="full code updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="full code updated" />
+    <MESSAGE value="code updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="code updated" />
   </component>
 </project>
