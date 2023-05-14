@@ -33,7 +33,7 @@
 	
 6. Dead
 	- if servlet have finished its task or if it is no longer needed then it can enter dead state using destroy() it is called only one throughout the life cycle of servlet.
-
+---
 DIFFERENCE BETWEEN generic servlet and http servlet
 
 | Generic servlet | Http Servlet |
@@ -42,3 +42,6 @@ DIFFERENCE BETWEEN generic servlet and http servlet
 |protocol independent|protocol specific|
 |init, service, destroy, are lifecycle methods for generic servlet|init, service, destroy, doget(), dopost() are life cycle methods for Http Servlet|
 |generic servlet doesnt support state management functionality|It supports state management functionality|
+
+---
+while creating the servlet there are 3 methods to be override service(), doGet(), doPost() methods
