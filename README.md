@@ -45,3 +45,6 @@ DIFFERENCE BETWEEN generic servlet and http servlet
 
 ---
 while creating the servlet there are 3 methods to be override service(), doGet(), doPost() methods
+> - protected void service(ServletRequest req, ServletResponse resp) throws ServletException, IOException {}
+> - protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {}
+> - protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {}
