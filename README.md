@@ -67,3 +67,8 @@ fetch value from html file
 `String[] params = request.getParameterValues("params name");`
 ---
 Request Dispatcher
+- Sending data from one page to another
+- `RequestDispatcher rd = request.getDispatcher("url");`
+- This interface have 2 methods
+1. void include(request, response)
+2. void forward(request, response)
