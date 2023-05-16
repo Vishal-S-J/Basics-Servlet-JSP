@@ -61,3 +61,9 @@ PRINTWRITER
 PrintWriter pw = response.getWriter();
 pw.println("MESSAGE");
 ```
+fetch value from html file
+- `getParameter()` is used to fetch value from the html file.
+- `getParameterValues()` is used to fetch multiple values of the same parameter and it returns string array as follows
+`String[] params = request.getParameterValues("params name");`
+---
+Request Dispatcher
