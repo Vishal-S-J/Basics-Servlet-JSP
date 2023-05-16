@@ -53,3 +53,8 @@ while creating the servlet there are 3 methods to be override service(), doGet()
 setting the content type of html page.
 using `setContentType()` of Http servlet response i.e `response.setContentType("text/html")` other can also be used like `("text/mp3")`
 ---
+PRINTWRITER
+To send the response from servlet to client we should estabilish writer stream and this writer stream can be created by using printwriter class
+Syntax:
+```PrintWriter pw = response.getWriter();
+pw.println("MESSAGE");```
