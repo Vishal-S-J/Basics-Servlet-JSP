@@ -78,4 +78,12 @@ client --> request --> servlet1 --> forward --> servlet2
    |                                                |
    |------------------------------------------------|
 ```
+response of second servlet is sent to the client. Response of the first servlet is not displayed to the user.
+
 2. void forward(request, response)
+```
+client --> request --> servlet1 --> include --> servlet2
+   ^                       |    <-- response <--    |
+   |------------------ response1                response2
+```
+response of second servlet is included in the response of the first servlet that is being sent to the client.
