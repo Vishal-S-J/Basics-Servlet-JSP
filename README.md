@@ -71,4 +71,11 @@ Request Dispatcher
 - `RequestDispatcher rd = request.getDispatcher("url");`
 - This interface have 2 methods
 1. void include(request, response)
+```
+client --> request --> servlet1 --> forward --> servlet2
+   ^                       |                        |
+   |                    response1               response2
+   |                                                |
+   |------------------------------------------------|
+```
 2. void forward(request, response)
