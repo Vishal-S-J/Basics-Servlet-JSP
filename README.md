@@ -50,11 +50,14 @@ while creating the servlet there are 3 methods to be override service(), doGet()
 > - protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {}
 
 ---
-setting the content type of html page.
+setting the content type of html page
 using `setContentType()` of Http servlet response i.e `response.setContentType("text/html")` other can also be used like `("text/mp3")`
+
 ---
 PRINTWRITER
-To send the response from servlet to client we should estabilish writer stream and this writer stream can be created by using printwriter class
-Syntax:
-```PrintWriter pw = response.getWriter();
-pw.println("MESSAGE");```
+- To send the response from servlet to client we should estabilish writer stream and this writer stream can be created by using printwriter class
+- Syntax:
+```
+PrintWriter pw = response.getWriter();
+pw.println("MESSAGE");
+```
