@@ -107,7 +107,7 @@ Need of State management
 - to fetch cookies at client side we can use getCookies() of HttpServletRequest which returns
 Cookies array
 	`Cookies[] cook = resp.getCookies();`
-|Methods of Cookies|
+| Methods of Cookies |
 |:-----:|
 |String getName()|
 |String getValue()|
