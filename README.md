@@ -95,4 +95,13 @@ Need of State management
 - which means http protocol doesn't identify its client 
 - and every time it considers the client as new client
 - so to avoid this limitaion java has introduces the new concept of statemanagement
-
+- it can be done in 4 types.
+1. Cookies
+- these are used to store the small amount of information
+- to create cookies we can use cookies class as follows
+`Cookies ck = new Cookies(name, value);`
+- Cookies are created at server side and store at client side.
+- to send cookies from server to client we can use add cookies() and its method of HttpServletResponse
+`resp.addCookies(ck)`
+- one client can have multiple cookies.
+- to fetch cookies at client side we can use getCookies() of HttpServletRequest which returns
