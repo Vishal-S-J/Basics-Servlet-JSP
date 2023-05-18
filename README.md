@@ -87,3 +87,11 @@ client --> request --> servlet1 --> include --> servlet2
    |------------------ response1                response2
 ```
 response of second servlet is included in the response of the first servlet that is being sent to the client.
+---
+State Management or Session Management
+Need of State management
+- Http Servlet uses Http Protocol and it is stateless protocol.
+- which means http protocol doesn't identify its client 
+- and every time it considers the client as new client
+- so to avoid this limitaion java has introduces the new concept of statemanagement
+
