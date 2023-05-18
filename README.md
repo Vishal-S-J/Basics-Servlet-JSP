@@ -87,6 +87,7 @@ client --> request --> servlet1 --> include --> servlet2
    |------------------ response1                response2
 ```
 response of second servlet is included in the response of the first servlet that is being sent to the client.
+
 ---
 State Management or Session Management
 Need of State management
