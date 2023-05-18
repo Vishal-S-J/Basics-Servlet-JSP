@@ -107,12 +107,15 @@ Need of State management
 - to fetch cookies at client side we can use getCookies() of HttpServletRequest which returns
 Cookies array
 	`Cookies[] cook = resp.getCookies();`
+
+
 | Methods of Cookies |
 |:-----:|
 |String getName()|
 |String getValue()|
 |int getMaxAge() - (in seconds value >0, <0, 0)|
 |void setMaxAge(seconds)|
+
 Types of Cookes-
 1. Persistant -> cookies which remains after closing the browser are called persistent cookies it have age >0
 2. Non-Persistant -> cookies which are immidiately flushed after closing the browser are called as non-persistent cookies and have age <0 i.e (-1)
