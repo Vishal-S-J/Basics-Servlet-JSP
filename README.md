@@ -105,3 +105,11 @@ Need of State management
 `resp.addCookies(ck)`
 - one client can have multiple cookies.
 - to fetch cookies at client side we can use getCookies() of HttpServletRequest which returns
+Cookies array
+	`Cookies[] cook = resp.getCookies();`
+|Methods of Cookies|
+|:-----:|
+|String getName()|
+|String getValue()|
+|int getMaxAge() - (in seconds value >0, <0, 0)|
+|void setMaxAge(seconds)|
