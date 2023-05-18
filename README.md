@@ -113,3 +113,10 @@ Cookies array
 |String getValue()|
 |int getMaxAge() - (in seconds value >0, <0, 0)|
 |void setMaxAge(seconds)|
+Types of Cookes-
+1. Persistant -> cookies which remains after closing the browser are called persistent cookies it have age >0
+2. Non-Persistant -> cookies which are immidiately flushed after closing the browser are called as non-persistent cookies and have age <0 i.e (-1)
+- setMaxAge(1) -> data will be present even after closing the browser.
+- setMaxAge(0) -> to delete cookies use age as 0.
+- Now a days cookies are non-persistent cookies.
+	
