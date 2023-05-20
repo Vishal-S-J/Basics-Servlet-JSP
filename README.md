@@ -123,3 +123,20 @@ Types of Cookes-
 - setMaxAge(0) -> to delete cookies use age as 0.
 - Now a days cookies are non-persistent cookies.
 	
+2. Http Session
+	- it is used to store lrge amount of information
+	- to create session we can use HttpSession interface as follows
+	`HttpSession hs = req.getSession();`
+	- session is created and stoored at client side
+	- one client have only one session
+	- getSession method perform 2 tasks
+		1. it creates new session if session not exist.
+		2. it reopens the session if it already exist.
+		
+	|Methods of HttpSession|
+	|:-------:|
+	|void setAttribute(name, value)|
+	|object getAttribute(name)|
+	|Int getMaxInactiveInterval()|
+	|void setMaxInactiveInterval(seconds)|
+	
