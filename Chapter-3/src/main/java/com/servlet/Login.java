@@ -21,12 +21,13 @@ public class Login extends HttpServlet {
         PrintWriter printWriter = resp.getWriter();
 
         if(username.equals("admin") && password.equals("admin")) {
+            // the next statement sends the request and response of this servlet to welcome page
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("welcome");
             requestDispatcher.forward(req, resp);
         } else {
             printWriter.println("SORRY USERNAME OR PASSWORD INCORRECT");
 
-            // the next statement sends the data of this servlet to index.html
+            // the next statement sends the request and response of this servlet to index.html i.e to same page
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("/index.html");
             requestDispatcher.include(req, resp);
         }
