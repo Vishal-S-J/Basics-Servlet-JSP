@@ -130,6 +130,7 @@ Types of Cookes-
 - session is created and stoored at client side
 - one client have only one session
 - getSession method perform 2 tasks
+
 		1. it creates new session if session not exist.
 		2. it reopens the session if it already exist.
 		
@@ -139,4 +140,9 @@ Types of Cookes-
 	|object getAttribute(name)|
 	|Int getMaxInactiveInterval()|
 	|void setMaxInactiveInterval(seconds)|
+	
+3. URL rewriting
+- to store and send value to hyperlink we can use the concept of url rewritting as follows.
+	`<a href="pagename?value=value">link</a>`and
+	`String req.getParameter("value");`
 	
