@@ -144,5 +144,5 @@ Types of Cookes-
 3. URL rewriting
 - to store and send value to hyperlink we can use the concept of url rewritting as follows.
 	`<a href="pagename?value=value">link</a>`and
-	`String req.getParameter("value");`
+	`String value = req.getParameter("value");`
 	
