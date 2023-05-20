@@ -13,6 +13,7 @@ public class Welcome extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter printWriter = resp.getWriter();
 
+        //this statement is used to get parameter from first servlet 
         String username = req.getParameter("uname");
         printWriter.println("WELCOME :: "+username);
     }
