@@ -146,3 +146,6 @@ Types of Cookes-
 	`<a href="pagename?value=value">link</a>`and
 	`String value = req.getParameter("value");`
 	
+4. Hidden fields
+- hidden fields are nothing but hidden text fields which are used to hide values from the form as follows
+- Syntax: `<input type = hidden name=name value = (setValue)>`
