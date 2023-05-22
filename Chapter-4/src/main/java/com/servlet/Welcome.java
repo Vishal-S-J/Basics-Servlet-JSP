@@ -14,6 +14,8 @@ public class Welcome extends HttpServlet {
             resp.setContentType("text/html");
             PrintWriter printWriter = resp.getWriter();
 
+            //Always get cookies array
+            //First page will send the cookie to next servlet
             Cookie[] cookie = req.getCookies();
 
             printWriter.println("HELLO :: " + cookie[0].getValue().toUpperCase());
