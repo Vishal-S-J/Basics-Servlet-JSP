@@ -15,11 +15,14 @@ public class AddServlet extends HttpServlet {
 
         PrintWriter printWriter = resp.getWriter();
 
+        // Get the data from html page form
         String fname = req.getParameter("fname");
         String lname = req.getParameter("lname");
         int age = Integer.parseInt(req.getParameter("age"));
         String address = req.getParameter("address");
 
+        //Create A session to send the data from one servlet to another servlet
+        //Sessions are used when there is large amount of data
         HttpSession httpSession = req.getSession();
         httpSession.setAttribute("fname", fname);
         httpSession.setAttribute("lname", lname);
