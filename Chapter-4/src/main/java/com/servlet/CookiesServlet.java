@@ -13,10 +13,11 @@ public class CookiesServlet extends HttpServlet {
         try {
             resp.setContentType("text/html");
             PrintWriter printWriter = resp.getWriter();
-
+            //get username from the html page
             String username = req.getParameter("username");
             printWriter.println("WELCOME :: "+username.toUpperCase());
 
+            //Convert the username to cookies single object
             Cookie cookie = new Cookie("username", username);   //creating the cookies object
             resp.addCookie(cookie);
 
