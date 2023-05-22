@@ -13,7 +13,8 @@ public class DetailsServlet extends HttpServlet {
         try {
             resp.setContentType("text/html");
             PrintWriter out = resp.getWriter();
-
+  
+            //Create session to get data from Previous servlet
             HttpSession session = req.getSession(false);
             String fname = (String) session.getAttribute("fname");
             String lname = (String) session.getAttribute("lname");
