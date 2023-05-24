@@ -166,5 +166,17 @@ SERVLET FILTER
 	 - servlet response
 	 - filter chain
 - filter chain - to chain or to connect filter wiht specific servlet we can use filter chain and mapping for that filter chain is performed inside web.xml
-	
-	
+
+---
+SERVLET WITH ANNOTATIONS
+|ANNOTATIONS|DESCRIPTION|
+|:---|:---|
+|@WebServlet|To declare a servlet|
+|@WebInitParam|To specify an initialization parameter.|
+|@WebFilter|To declare a servlet filter.|
+|@WebListener|To declare a WebListener|
+|@HandlesTypes|To declare the class types that a ServletContainerInitializer can handle.|
+|@HttpConstraint|This annotation is used within the ServletSecurity annotation to represent the security constraints to be applied to all HTTP protocol methods for which a corresponding HttpMethodConstraint element does NOT occur within the ServletSecurity annotation.|	
+|@HttpMethodConstraint|This annotation is used within the ServletSecurity annotation to represent security constraints on specific HTTP protocol messages.|
+|@MultipartConfig|Annotation that may be specified on a Servlet class, indicating that instances of the Servlet expect requests that conform to the multipart/form-data MIME type.|	
+|@ServletSecurity|This annotation is used on a Servlet implementation class to specify security constraints to be enforced by a Servlet container on HTTP protocol messages.|
