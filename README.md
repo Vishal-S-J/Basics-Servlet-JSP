@@ -149,3 +149,22 @@ Types of Cookes-
 4. Hidden fields
 - hidden fields are nothing but hidden text fields which are used to hide values from the form as follows
 - Syntax: `<input type = hidden name=name value = (setValue)>`
+
+---
+SERVLET FILTER
+	- these are used in preprocessing and post of request and response
+	- to create servlet filterwe can use filter interface.
+	- this filler interface contains 3 methods
+	init()
+	dofilter()
+	destroy()
+	- and map filter with specific servlet we can use two tags
+	<filter>
+	<filter-mapping>
+	- actual login of filter is defined inside dofilter() it cotains 3 parts
+	servlet request
+	servlet response
+	filter chain
+	- filter chain - to chain or to connect filter wiht specific servlet we can use filter chain and mapping for that filter chain is performed inside web.xml
+	
+	
