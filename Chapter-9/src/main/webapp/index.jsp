@@ -7,6 +7,7 @@
 <title>MAIN PAGE</title>
 </head>
 <body>
+<!-- This is the main form page for next jsp page-->
     <h3>Hello World</h3>
     <form action="hello.jsp" method="post">
         NAME :: <input type="text" name="uname"><br>
