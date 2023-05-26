@@ -180,3 +180,23 @@ SERVLET WITH ANNOTATIONS
 |@HttpMethodConstraint|This annotation is used within the ServletSecurity annotation to represent security constraints on specific HTTP protocol messages.|
 |@MultipartConfig|Annotation that may be specified on a Servlet class, indicating that instances of the Servlet expect requests that conform to the multipart/form-data MIME type.|	
 |@ServletSecurity|This annotation is used on a Servlet implementation class to specify security constraints to be enforced by a Servlet container on HTTP protocol messages.|
+
+--- 
+SERVLET TO JSP
+
+ServletClass(demojsp) -> to -> file name(demo.jsp)
+
+<% any code in it %> ----- will get from ----- doGet, doPost, or service --- called as scriptlet
+
+If we want to declare a variable out of service or in servlet
+
+Use <%!  int value = 10  %> --- called as declaration
+
+If we want to import any package use
+
+<%@ page import = "java.util.Date", "another" %> ---- called as directive tag
+
+If we want to print instead of using PrintWriter use
+
+<%= k %> --- out.println(k)  ---- called as expression tag
+
