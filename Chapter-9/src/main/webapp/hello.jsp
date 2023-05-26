@@ -11,6 +11,8 @@
     <title>WELCOME</title>
 </head>
 <body>
+<!-- This is a jsp file which is used insted of servlet -->
+<!-- This file takes the username and prints the rest -->
     <%
         String name = request.getParameter("uname");
         out.println("WELCOME TO HELLO PAGE");
