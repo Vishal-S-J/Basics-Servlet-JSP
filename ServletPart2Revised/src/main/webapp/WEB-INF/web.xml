@@ -10,7 +10,7 @@
 
 	<servlet>
 		<servlet-name>servlet</servlet-name>
-		<servlet-class>org.example.App</servlet-class>
+		<servlet-class>org.example.PrintWriter</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
