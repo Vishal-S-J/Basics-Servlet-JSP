@@ -6,11 +6,14 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class TargetServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // Add any necessary processing or logic here
+        PrintWriter printWriter = resp.getWriter();
+        printWriter.println("THIS IS TARGET SERVLET");
 
         // Retrieve data from the forwarded request (if any)
         String data = (String) req.getAttribute("Data");
