@@ -17,4 +17,24 @@
 		<servlet-name>servlet</servlet-name>
 		<url-pattern>/printWriter</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>forward</servlet-name>
+		<servlet-class>org.forward.SourceServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>forward</servlet-name>
+		<url-pattern>/source</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>target</servlet-name>
+		<servlet-class>org.forward.TargetServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>target</servlet-name>
+		<url-pattern>/target</url-pattern>
+	</servlet-mapping>
 </web-app>
