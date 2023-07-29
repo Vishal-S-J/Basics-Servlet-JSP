@@ -12,6 +12,7 @@ public class TargetServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // Add any necessary processing or logic here
+        resp.setContentType("text/html");
         PrintWriter printWriter = resp.getWriter();
         printWriter.println("THIS IS TARGET SERVLET");
 
