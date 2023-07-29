@@ -8,6 +8,7 @@
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
 
+<!--	printWriter example-->
 	<servlet>
 		<servlet-name>servlet</servlet-name>
 		<servlet-class>org.example.PrintWriter</servlet-class>
@@ -18,6 +19,7 @@
 		<url-pattern>/printWriter</url-pattern>
 	</servlet-mapping>
 
+<!--	example for forward dispatcher servlet-->
 	<servlet>
 		<servlet-name>forward</servlet-name>
 		<servlet-class>org.forward.SourceServlet</servlet-class>
@@ -36,5 +38,24 @@
 	<servlet-mapping>
 		<servlet-name>target</servlet-name>
 		<url-pattern>/target</url-pattern>
+	</servlet-mapping>
+
+<!--	example for include dispatcher servlet-->
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>org.include.SourceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/first</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>org.include.IncludeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/include</url-pattern>
 	</servlet-mapping>
 </web-app>
