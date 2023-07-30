@@ -68,4 +68,28 @@
 		<servlet-name>redirect</servlet-name>
 		<url-pattern>/redirect</url-pattern>
 	</servlet-mapping>
+	
+<!--	example for servletConfig-->
+	<servlet>
+		<servlet-name>servletConfig</servlet-name>
+		<servlet-class>org.servletconfig.ServletConfigExample</servlet-class>
+		<init-param>
+			<param-name>message</param-name>
+			<param-value>Hello this is the data from web.xml</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletConfig</servlet-name>
+		<url-pattern>/servletConfigExample</url-pattern>
+	</servlet-mapping>
+
+<!--	example for servletContext-->
+	<servlet>
+		<servlet-name>servletContext</servlet-name>
+		<servlet-class>org.servletcontext.ServletContextExample</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletContext</servlet-name>
+		<url-pattern>/servletContext</url-pattern>
+	</servlet-mapping>
 </web-app>
