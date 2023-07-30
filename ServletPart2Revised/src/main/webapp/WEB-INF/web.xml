@@ -58,4 +58,14 @@
 		<servlet-name>second</servlet-name>
 		<url-pattern>/include</url-pattern>
 	</servlet-mapping>
+
+<!--	example for send redirect-->
+	<servlet>
+		<servlet-name>redirect</servlet-name>
+		<servlet-class>org.redirect.SendRedirect</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>redirect</servlet-name>
+		<url-pattern>/redirect</url-pattern>
+	</servlet-mapping>
 </web-app>
