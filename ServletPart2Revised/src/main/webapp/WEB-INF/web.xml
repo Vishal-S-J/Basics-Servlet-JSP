@@ -92,4 +92,23 @@
 		<servlet-name>servletContext</servlet-name>
 		<url-pattern>/servletContext</url-pattern>
 	</servlet-mapping>
+
+<!--	example for session for cookies-->
+	<servlet>
+		<servlet-name>setCookie</servlet-name>
+		<servlet-class>org.session.cookies.SetCookiesSample</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>setCookie</servlet-name>
+		<url-pattern>/setCookie</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getCookie</servlet-name>
+		<servlet-class>org.session.cookies.GetCookiesSample</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getCookie</servlet-name>
+		<url-pattern>/getCookie</url-pattern>
+	</servlet-mapping>
 </web-app>
