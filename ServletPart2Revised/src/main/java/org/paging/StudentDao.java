@@ -9,7 +9,7 @@ import java.util.List;
 public class StudentDao {
     private final Connection connection;
 
-    public StudentDao (Connection connection) {
+    public StudentDao(Connection connection) {
         this.connection = connection;
     }
 
@@ -33,5 +33,19 @@ public class StudentDao {
             e.printStackTrace();
         }
         return list;
+    }
+
+    public int countId() {
+        int count = 0;
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT COUNT(*) FROM STUDENT");
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                count = resultSet.getInt(1);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return count;
     }
 }
