@@ -11,7 +11,7 @@
 <!--	printWriter example-->
 	<servlet>
 		<servlet-name>servlet</servlet-name>
-		<servlet-class>org.example.PrintWriter</servlet-class>
+		<servlet-class>org.example.PrintWriterSample</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -110,5 +110,34 @@
 	<servlet-mapping>
 		<servlet-name>getCookie</servlet-name>
 		<url-pattern>/getCookie</url-pattern>
+	</servlet-mapping>
+	
+<!--	login logout project sample-->
+	<servlet>
+		<display-name>LoginServlet</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>org.loginlogoutsampleproject.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/views/loginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<display-name>ProfileServlet</display-name>
+		<servlet-name>ProfileServlet</servlet-name>
+		<servlet-class>org.loginlogoutsampleproject.ProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProfileServlet</servlet-name>
+		<url-pattern>/views/ProfileServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<display-name>LogoutServlet</display-name>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>org.loginlogoutsampleproject.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/views/LogoutServlet</url-pattern>
 	</servlet-mapping>
 </web-app>
