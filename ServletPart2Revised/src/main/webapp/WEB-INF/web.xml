@@ -160,4 +160,9 @@
 		<servlet-name>servlet1</servlet-name>
 		<url-pattern>/nextPageSession</url-pattern>
 	</servlet-mapping>
+	
+<!--	listener added-->
+	<listener>
+		<listener-class>org.listener.ListenersExample</listener-class>
+	</listener>
 </web-app>
