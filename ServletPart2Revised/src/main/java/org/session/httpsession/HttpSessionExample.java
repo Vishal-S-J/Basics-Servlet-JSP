@@ -17,6 +17,7 @@ public class HttpSessionExample extends HttpServlet {
 
         HttpSession session=req.getSession();
         System.out.println("SESSION ID :: "+session.getId());
+        System.out.println("TIME :: "+session.getCreationTime());
 
         printWriter.print("<a href='httpSessionNextPage.html'>visit</a>");
 
