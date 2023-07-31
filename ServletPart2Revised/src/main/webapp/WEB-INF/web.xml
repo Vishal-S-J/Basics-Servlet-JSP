@@ -150,4 +150,14 @@
 		<servlet-name>urlRewriting</servlet-name>
 		<url-pattern>/urlRewriting</url-pattern>
 	</servlet-mapping>
+	
+<!--	example for http session-->
+	<servlet>
+		<servlet-name>servlet1</servlet-name>
+		<servlet-class>org.session.httpsession.HttpSessionExample</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servlet1</servlet-name>
+		<url-pattern>/nextPageSession</url-pattern>
+	</servlet-mapping>
 </web-app>
