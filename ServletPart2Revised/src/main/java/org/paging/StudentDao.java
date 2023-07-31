@@ -17,7 +17,6 @@ public class StudentDao {
         List<Student> list = new ArrayList<>();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM STUDENT LIMIT " + (start - 1) + "," + total);
-            System.out.println("SELECT * FROM STUDENT LIMIT " + (start - 1) + "," + total);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 Student student = new Student();

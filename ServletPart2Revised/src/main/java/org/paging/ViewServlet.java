@@ -21,7 +21,7 @@ public class ViewServlet extends HttpServlet {
 
         String spageId = req.getParameter("page");
         int pageId = Integer.parseInt(spageId);
-        int total = 5;
+        int total = 10;
         if (pageId == 1) {
 
         } else {
@@ -41,6 +41,8 @@ public class ViewServlet extends HttpServlet {
         printWriter.print("<a href='ViewServlet?page=1'>1</a> ");
         printWriter.print("<a href='ViewServlet?page=2'>2</a> ");
         printWriter.print("<a href='ViewServlet?page=3'>3</a> ");
+        printWriter.print("<a href='ViewServlet?page=4'>4</a> ");
+        printWriter.print("<a href='ViewServlet?page=5'>5</a> ");
 
         printWriter.close();
     }
