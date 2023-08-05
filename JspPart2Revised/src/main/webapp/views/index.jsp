@@ -14,7 +14,7 @@
 <body>
 
 <div class="container">
-    <form action="printWriter" method="post" class="mt-2">
+    <form action="PrintWriter/printwriter.jsp" method="post" class="mt-2">
         <div class="container text-center">
             <button class="btn btn-warning">PrintWriter</button>
         </div>
