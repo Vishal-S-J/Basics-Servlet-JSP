@@ -24,7 +24,7 @@
             <button class="btn bg-primary text-white">RequestDispatcher Forward()</button>
         </div>
     </form>
-    <form action="first" method="get" class="mt-2">
+    <form action="RequestDispatcher/include/sourceservlet.jsp" method="get" class="mt-2">
         <div class="container text-center">
             <button class="btn bg-primary text-white">RequestDispatcher include()</button>
         </div>
