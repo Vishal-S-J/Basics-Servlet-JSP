@@ -19,7 +19,7 @@
             <button class="btn btn-warning">PrintWriter</button>
         </div>
     </form>
-    <form action="source" method="get" class="mt-2">
+    <form action="RequestDispatcher/forward/source.jsp" method="get" class="mt-2">
         <div class="container text-center">
             <button class="btn bg-primary text-white">RequestDispatcher Forward()</button>
         </div>
