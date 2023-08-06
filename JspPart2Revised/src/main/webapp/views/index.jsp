@@ -34,18 +34,8 @@
             <button class="btn bg-primary text-white">sendRedirect()</button>
         </div>
     </form>
-    <form action="servletConfigExample" method="get" class="mt-2">
-        <div class="container text-center">
-            <button class="btn bg-primary text-white">servletConfig</button>
-        </div>
-    </form>
-    <form action="servletContext" method="get" class="mt-2">
-        <div class="container text-center">
-            <button class="btn bg-primary text-white">servletContext</button>
-        </div>
-    </form>
     <div class="container text-center mt-2">
-        <a href="session.html"><button class="btn bg-primary text-white">session</button></a>
+        <a href="Session/session.jsp"><button class="btn bg-primary text-white">session</button></a>
     </div>
     <div class="container text-center mt-2">
         <a href="views/index.html"><button class="btn bg-primary text-white">Login Logout Application</button></a>
